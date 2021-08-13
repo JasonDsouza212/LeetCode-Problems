@@ -1,0 +1,3 @@
+# Data-Structures-and-Algorithms
+As I started my DSA journey as i learn new things i will keep on solving problems.
+Here I'll add all the problems I solve regarding DSA feel free to optimize the code.....
