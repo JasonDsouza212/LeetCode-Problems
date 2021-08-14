@@ -1,7 +1,6 @@
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         int ans[]=new int[2*n];
-        int start=1;
         int m=n;
         int k=1;
         ans[0]=nums[0];
