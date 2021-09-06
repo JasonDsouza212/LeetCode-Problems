@@ -1,7 +1,6 @@
 class Solution {
     public int findPeakElement(int[] nums) {
-     return search(nums);
-        
+     return search(nums); 
     }
      public int search(int[] arr){
         int start=0;
