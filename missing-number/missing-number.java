@@ -3,17 +3,7 @@ class Solution {
        return sort(nums); 
     }
     public int sort(int arr[]){
-        int i=0;
-        while(i<arr.length){
-            int correct=arr[i];
-            if(arr[i]<arr.length && arr[i]!=arr[correct]){
-                int temp=arr[i];
-                arr[i]=arr[correct];
-                arr[correct]=temp;
-            }else{
-                i++;
-            }
-        }
+  Arrays.sort(arr);
         for(int j=0;j<arr.length;j++){
             if(arr[j]==j){
                 continue;
